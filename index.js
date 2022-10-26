@@ -1,5 +1,3 @@
-//import Swal from "sweetalert2/dist/sweetalert2.js";
-
 //maneja el scroll del header
 window.addEventListener("scroll", function () {
   var header = document.querySelector("header");
@@ -10,6 +8,7 @@ window.addEventListener("scroll", function () {
 const buttonNewProyect = document.querySelector(".start-proyect");
 buttonNewProyect.addEventListener("click", (e) => {
   e.preventDefault();
+  document.querySelector(".contacto").scrollIntoView();
   console.log("new proyect");
 });
 
@@ -17,6 +16,7 @@ buttonNewProyect.addEventListener("click", (e) => {
 const buttonProyects = document.querySelector(".proyects");
 buttonProyects.addEventListener("click", (e) => {
   e.preventDefault();
+  document.querySelector(".portfolio").scrollIntoView();
   console.log("PROYECTOS");
 });
 
