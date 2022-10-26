@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
-    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <title>A JAIME</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
 			<ul>
 				<li><a href="#section_me">Home</a></li>
 				<li><a href="#portfolio">Portafolio</a></li>
-				<li><a href="#">Contacto</a></li>
+				<li><a href="#contacto">Contacto</a></li>
 			</ul>
 		</nav>
     </header>
@@ -83,10 +84,33 @@
             <img src="./imgPortfolio/Triangulos L.png" alt="" class="triangles-left">
             <a href="https://www.behance.net/antonellajaime" class="portfolio_ver-mas"><img src="./imgPortfolio/Vector (1).png" class="ver-mas-img"> Ver portfolio completo</a>
         </div>
-          
     </div>
-   
-
+   </section>
+   <section class="contacto" id="contacto">
+    <div class="contacto_triangles-conteiner">
+        <div class="contacto_conteiner">
+            <div class="contacto_dialogo">
+                <h2 class="pregunta">¿Te interesa que trabajemos juntos?</h2>
+                <h2 class="invitacion">¡Hablemos!</h2>
+            </div>
+            <div class="contacto_form-conteiner">
+                <form class="contacto_form">
+                    <label for="" class="label">Tu nombre
+                        <input type="text" class="input" name="name">
+                    </label>
+                    <label for="" class="label">Tu mail
+                        <input type="email" class="input" name="email">
+                    </label>
+                    <label for="" class="label">Escribe tu mensaje
+                        <textarea name="mensaje" class="textarea" cols="30" rows="10"></textarea>
+                    </label>
+                    <button class="form-submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    <img src="./imgContacto/Triangulos.png" alt="" class="contacto_tiangles">     
+    </div>
+    
    </section>
 
 
