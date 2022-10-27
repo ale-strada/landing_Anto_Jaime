@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+}
+body{
     margin: 0;
     padding: 0;
 }
@@ -471,6 +473,8 @@ header ul li a{
     height: 208px;
     background: #9890E3;
     padding: 30px 0;
+    position: relative;
+    top: 250px;
 }
 .footer_conteiner{
     display: flex;

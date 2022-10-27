@@ -98,7 +98,7 @@ const contacto = document.querySelector(".contacto-link");
 
 window.addEventListener("scroll", (e) => {
   var scroll = this.scrollY;
-  console.log(scroll);
+  //console.log(scroll);
   if (scroll < 1440) {
     home.classList.add("select");
     contacto.classList.remove("select");
