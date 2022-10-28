@@ -1,0 +1,133 @@
+.contacto{
+    margin: 100px auto;
+}
+
+.contacto_conteiner{
+    width: 1300px;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contacto_form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 110px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    margin: 9px;
+}
+
+.contacto_dialogo{
+    width: 410px;
+    height: 380px;
+    background: #9890E3;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pregunta{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.invitacion{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 45px;
+}
+.input{
+    width: 598px;
+    height: 55px;
+    background: rgba(152, 144, 227, 0.09);
+    border: 1px solid #9890E3;
+    border-radius: 14px;
+    margin-top: 7px;
+    padding: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.textarea{
+    width: 598px;
+    height: 170px;
+    left: 656px;
+    top: 2681px;
+    background: rgba(152, 144, 227, 0.09);
+    border: 1px solid #9890E3;
+    border-radius: 14px;
+    margin-top: 7px;
+    padding: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    color: #9890E3;
+}
+.form-submit{
+    width: 233px;
+    height: 50px;
+    left: 1021px;
+    background: #9890E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 2893px;
+    border-radius: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    align-self: end;
+    margin-top: 50px;
+}
+.form-submit:hover {
+    background: rgba(152, 144, 227, 0.53);
+    border: 1px solid #9890E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+.contacto_triangles-conteiner{
+    width: 1300px;
+    height: 550px;
+    margin: 130px auto;
+}
+
+.contacto_tiangles{
+    position: relative;
+    right: 100px;
+    bottom: 660px;
+}

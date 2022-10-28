@@ -1,0 +1,130 @@
+.section_me{
+    display: flex;
+    margin-top: 200px;
+}
+
+.profile{
+    width: 50%;
+}
+.profile_conteiner{
+    width: 720px;
+    height: 900px;
+    margin: auto 0;
+}
+.profile_my-name{
+    width: 272px;
+    height: 139px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 68px;
+    color: #9890E3;
+    position: relative;
+    top: 300px;
+    left: 360px;
+    z-index: 5;
+}
+.profile__me-picture{
+    position: relative;
+    z-index: 5;
+}
+.profile__big-triangle{
+    position: relative;
+    bottom: 500px;
+}
+.profile__small-triangles{
+    position: relative;
+    bottom: 750px;
+    left: 400px;
+}
+
+.profile-description{
+    width: 50%;
+    margin: 400px 100px 0 50px;
+}
+.about-me{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.about-me_title{
+    width: 583px;
+    height: 88px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.about-me_span{
+    font-weight: 800;
+}
+
+.about-me_description{
+    width: 583px;
+    height: 161px;
+    left: 732px;
+    top: 602px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #000000;
+    padding: 25px 0;
+}
+.about-me_buttons{
+    display: flex;
+}
+.start-proyect{
+    width:326px;
+    height:50px;
+    background: #9890E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.start-proyect:hover {
+    background: rgba(152, 144, 227, 0.53);
+    border: 1px solid #9890E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+.proyects{
+    width: 233px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #9890E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin: 0 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9890E3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.proyects:hover {
+    background: #E8E6E6;
+    border: 1px solid #9890E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }

@@ -1,0 +1,85 @@
+.portfolio{
+    height:950px;
+}
+.portfolio_trabajo-conteiner{
+    height: 750px;
+    background-color:#B1F4CF;
+    /* position: relative;
+    top: 60px; */
+}
+.portfolio_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #9890E3;
+    text-align: center;
+    padding: 50px;
+}
+.portfolio_trabajos-triangles-conteiner{
+    width: 1440px;
+    height: 750px;
+    margin: 0 auto;
+}
+.portfolio_trabajos-img-box {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    }
+.arriba{
+    margin-top: 60px;
+}
+
+.portfolio_trabajo{
+    margin: 20px;
+}
+.portfolio_trabajo-type{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9890E3;
+}
+.triangles-left{
+    position: relative;
+    bottom: 860px;
+    right: 215px;
+}
+.triangles-rigth{
+    position: relative;
+    bottom: 920px;
+    left: 1200px;
+}
+.portfolio_trabajo-img{
+    background: rgba(152, 144, 227, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    opacity: 0.8;
+}
+.portfolio_trabajo-img:hover {
+   opacity: 1;
+   z-index: 5;
+   transition: opacity .5s;
+   box-shadow: 0px 15px 15px rgba(152, 144, 227, 0.8);
+}
+.portfolio_ver-mas{
+    position: relative;
+    bottom: 670px;
+    left: 420px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B1F4CF;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+  
+.ver-mas-img{
+    margin: 5px;
+}
