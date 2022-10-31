@@ -23,12 +23,12 @@ window.addEventListener("scroll", (e) => {
     contacto.classList.remove("select");
     home.classList.remove("select");
     servicios.classList.remove("select");
-  } else if (scroll > 1900 && scroll < 3000) {
+  } else if (scroll > 1900 && scroll < 2900) {
     servicios.classList.add("select");
     contacto.classList.remove("select");
     portfolio.classList.remove("select");
     home.classList.remove("select");
-  } else if (scroll > 3000) {
+  } else if (scroll > 2900) {
     contacto.classList.add("select");
     servicios.classList.remove("select");
     portfolio.classList.remove("select");
