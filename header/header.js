@@ -7,21 +7,30 @@ window.addEventListener("scroll", function () {
 //colores en secctions
 const home = document.querySelector(".home-link");
 const portfolio = document.querySelector(".portfolio-link");
+const servicios = document.querySelector(".servicios-link");
 const contacto = document.querySelector(".contacto-link");
 
 window.addEventListener("scroll", (e) => {
   var scroll = this.scrollY;
-  //console.log(scroll);
-  if (scroll < 1440) {
+  console.log(scroll);
+  if (scroll < 800) {
     home.classList.add("select");
     contacto.classList.remove("select");
     portfolio.classList.remove("select");
-  } else if (scroll > 1440 && scroll < 2400) {
+    servicios.classList.remove("select");
+  } else if (scroll > 800 && scroll < 1930) {
     portfolio.classList.add("select");
     contacto.classList.remove("select");
     home.classList.remove("select");
-  } else if (scroll > 2400) {
+    servicios.classList.remove("select");
+  } else if (scroll > 1930 && scroll < 3800) {
+    servicios.classList.add("select");
+    contacto.classList.remove("select");
+    portfolio.classList.remove("select");
+    home.classList.remove("select");
+  } else if (scroll > 3800) {
     contacto.classList.add("select");
+    servicios.classList.remove("select");
     portfolio.classList.remove("select");
     home.classList.remove("select");
   }
