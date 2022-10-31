@@ -19,7 +19,7 @@
     font-size: 20px;
     line-height: 24px;
     color: #9890E3;
-    margin: 50px auto 0;
+    margin: 50px auto 15px;
 }
 @media (min-width: 600px){
     .habilidades_title {
@@ -47,16 +47,31 @@
 }
 
 .habilidades_logos-small-conteiner{
-    width: 175px;
-    margin: 30px auto;
+    width: 200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
 }
 @media (min-width: 600px){
     .habilidades_logos-small-conteiner {
        width: 370px;;
     }
 }
+@media (min-width: 600px){
+    .habilidades_logos-small-wrap {
+        display: flex;
+    margin: 20px;
+    }
+    .up{
+        justify-content: end;
+    }
+    .down{
+        justify-content: start;
+    }
+}
+
 @media (min-width: 1000px){
-    .habilidades_logos-small-conteiner {
+    .habilidades_logos-small-wrap {
        display: none;
     }
 }
@@ -90,7 +105,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0px auto;
+    margin: 15px auto;
     margin-bottom: 50px;
     border: none;
 }
