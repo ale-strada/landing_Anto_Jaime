@@ -1,5 +1,4 @@
 .habilidades-conteiner{
-    height: 400px;
     width: 350px;
     display: flex;
     flex-direction: column;
@@ -7,44 +6,113 @@
     /* justify-content: center; */
     margin: 10px auto;
 }
+@media (min-width: 1000px){
+    .habilidades-conteiner {
+        height: 400px;
+    }
+}
 
 .habilidades_title{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 20px;
+    line-height: 24px;
     color: #9890E3;
     margin: 50px auto 0;
 }
+@media (min-width: 600px){
+    .habilidades_title {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 44px;
+    }
+}
+@media (min-width: 1000px){
+    .habilidades_title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
 .habilidades_logos-conteiner{
-    margin-top: 100px;
-    z-index: 5;
+    display: none ;
+}
+@media (min-width: 1000px){
+    .habilidades_logos-conteiner {
+       display: initial;
+       margin-top: 100px;
+       z-index: 5;
+    }
+}
+
+.habilidades_logos-small-conteiner{
+    width: 175px;
+    margin: 30px auto;
+}
+@media (min-width: 600px){
+    .habilidades_logos-small-conteiner {
+       width: 370px;;
+    }
+}
+@media (min-width: 1000px){
+    .habilidades_logos-small-conteiner {
+       display: none;
+    }
+}
+.habilidades_logo{
+    margin: 7px;
 }
 .habilidades_triangulos{
-    position: relative;
-    bottom: 260px;
-    left: 340px;
+   display: none;
+}
+@media (min-width: 1000px){
+    .habilidades_triangulos {
+        display: initial;
+        position: relative;
+        bottom: 260px;
+        left: 340px;
+    }
 }
 .download-cv{
-    width: 255px;
-    height: 45px;
+    width: 213px;
+    height: 36px;
     background: #B1F4CF;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 14px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 19px;
     text-align: center;
     color: #9890E3;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 10px auto;
+    margin: 0px auto;
     margin-bottom: 50px;
     border: none;
+}
+@media (min-width: 1000px){
+    .download-cv {
+        width: 255px;
+        height: 45px;
+        font-size: 16px;
+        margin: 10px auto;
+    }
+
+}
+.download-cv_img{
+    width: 13px;
+    height: 17px;
+}
+@media (min-width: 1000px){
+    .download-cv .download-cv_img{
+        width: 16px;
+        height: 20px;
+    }
+
 }
 .download-cv:hover{
     background: rgba(177, 244, 207, 0.29);
