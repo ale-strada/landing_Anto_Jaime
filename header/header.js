@@ -11,14 +11,14 @@ const servicios = document.querySelector(".servicios-link");
 const contacto = document.querySelector(".contacto-link");
 
 window.addEventListener("scroll", (e) => {
-  // var scroll = this.scrollY;
-  console.log(scroll);
+  var scroll = this.scrollY;
+  //console.log(scroll);
   if (scroll < 800) {
     home.classList.add("select");
     contacto.classList.remove("select");
     portfolio.classList.remove("select");
     servicios.classList.remove("select");
-  } else if (scroll > 800 && scroll < 1930) {
+  } else if (scroll > 800 && scroll < 1900) {
     portfolio.classList.add("select");
     contacto.classList.remove("select");
     home.classList.remove("select");
