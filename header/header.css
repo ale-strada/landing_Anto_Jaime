@@ -7,7 +7,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     transition: 0.7s;
@@ -15,11 +15,11 @@
     z-index: 10;
 }
 
-@media (max-width: 500px) {
-    /* .header{
-     max-width: 500px;
-    } */
+@media (min-width: 600px){
+  .about-me_buttons {
+    width: 100%;
   }
+}
 header .logo{
     position: relative;
 }
@@ -98,7 +98,8 @@ header .logo{
     background: rgba(152, 144, 227, 0.83);
     bottom: 0;
     height: 70%;
-    right: 0;
+    /* right: 0; */
+    right: 110px;
     position: fixed;
     top: 0;
     transform: translate3d(0px, -100%, 0px);

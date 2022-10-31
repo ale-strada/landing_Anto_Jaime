@@ -11,7 +11,13 @@
  }
 .profile_conteiner{
     height: 400px;
-    width: 500px;
+    width: 400px;
+}
+@media (min-width: 600px){
+    .profile_conteiner{
+        height: 400px;
+        width: 500px;
+    }
 }
 .profile_my-name{
     font-family: 'Inter';
@@ -48,7 +54,7 @@
     z-index: 5;
     width: 200px;
     height: 200px;
-    bottom: 100px;
+    bottom: 50px;
 }
 @media (min-width: 600px){
     .profile__me-picture {
@@ -66,8 +72,8 @@
     position: relative;
     width: 200px;
     height: 250px;
-    bottom: 40px;
-    right: 200px;
+    bottom: 245px;
+    right: 0px;
 }
 @media (min-width: 600px){
     .profile__big-triangle {
@@ -88,8 +94,8 @@
     position: relative;
     width: 110px;
     height: 90px;
-    bottom: 130px;
-    left: 80px;
+    bottom: 255px;
+    right: 70px;
 }
 @media (min-width: 600px){
     .profile__small-triangles {
@@ -177,9 +183,9 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: end;
-    position: absolute;
-    bottom: 80px;
-    left: 120px;
+    position: relative;
+    bottom: 370px;
+    left: 0px;
 }
 @media (min-width: 600px){
     .about-me_buttons {
