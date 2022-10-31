@@ -11,8 +11,8 @@ const servicios = document.querySelector(".servicios-link");
 const contacto = document.querySelector(".contacto-link");
 
 window.addEventListener("scroll", (e) => {
-  var scroll = this.scrollY;
-  //console.log(scroll);
+  // var scroll = this.scrollY;
+  console.log(scroll);
   if (scroll < 800) {
     home.classList.add("select");
     contacto.classList.remove("select");
@@ -23,12 +23,12 @@ window.addEventListener("scroll", (e) => {
     contacto.classList.remove("select");
     home.classList.remove("select");
     servicios.classList.remove("select");
-  } else if (scroll > 1930 && scroll < 3800) {
+  } else if (scroll > 1900 && scroll < 3000) {
     servicios.classList.add("select");
     contacto.classList.remove("select");
     portfolio.classList.remove("select");
     home.classList.remove("select");
-  } else if (scroll > 3800) {
+  } else if (scroll > 3000) {
     contacto.classList.add("select");
     servicios.classList.remove("select");
     portfolio.classList.remove("select");
