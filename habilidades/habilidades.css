@@ -19,7 +19,7 @@
     font-size: 20px;
     line-height: 24px;
     color: #9890E3;
-    margin: 50px auto 15px;
+    margin: -70px auto 15px;
 }
 @media (min-width: 600px){
     .habilidades_title {
@@ -30,9 +30,11 @@
 }
 @media (min-width: 1000px){
     .habilidades_title {
+        margin: 60px auto 15px;
         font-weight: 700;
         font-size: 36px;
         line-height: 44px;
+
     }
 }
 .habilidades_logos-conteiner{
