@@ -40,8 +40,12 @@
 }
 .servicios_conteiner{
     background: #F5F5F5;
-    padding: 15px;
     margin: 30px 0;
+}
+@media (min-width: 600px){
+    .servicios_conteiner{
+        padding: 15px;
+    }
 }
 @media (min-width: 1000px){
    .servicios_conteiner{

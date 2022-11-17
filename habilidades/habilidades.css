@@ -42,9 +42,9 @@
 }
 @media (min-width: 1000px){
     .habilidades_logos-conteiner {
-       display: initial;
-       margin-top: 100px;
-       z-index: 5;
+    display: initial;
+    margin-top: 100px;
+    z-index: 5;
     }
 }
 
@@ -56,7 +56,7 @@
 }
 @media (min-width: 600px){
     .habilidades_logos-small-conteiner {
-       width: 370px;;
+        width: 370px;;
     }
 }
 @media (min-width: 600px){
